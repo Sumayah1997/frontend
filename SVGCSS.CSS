@@ -1,0 +1,3 @@
+.pink-box{ background-color: blueviolet; width: 100px; height: 100px; margin: 15%; }
+.blue-circle{ background-color: chocolate; width: 200px; height: 200px; border-radius: 50%; margin: 15%;}
+.green-rounded-rectangle{ background-color: aqua;width: 200px; height: 200px; border-radius: 15%; margin: 15px;}

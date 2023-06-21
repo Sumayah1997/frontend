@@ -1,0 +1,28 @@
+.pink-box{ background-color: blueviolet; width:350px; height: 200px;  }
+.green-rounded-rectangle{ background-color: rgb(255, 0, 64);width: 350px; height: 200px; border-radius: 5%;}
+.blue-circle{ background-color: rgb(223, 230, 206); width: 200px; height: 200px; border-radius: 50%; position: absolute; top:100px; left: 75px; right: 50px;}
+.c{ position: absolute; left: 150px;font-size: 20px;}
+.v{position: absolute ; top: 179px; left: 150px;z-index: 1;font-weight: 300 ;font-size:large;} 
+
+
+.rm{margin: 50px; font-size: 30px; position: absolute;top: 500px;left: 190px;z-index: 2;}
+.blue-rectangle{ margin: 50px; background-color: aqua; width: 400px; height: 200px;}
+.yellow-circle{background-color: yellow;width: 150px; height: 150px; border-radius: 50%; position: absolute; left: 199px; top:  490px;z-index: 1;}
+
+
+.j{font-size: 40px; position: absolute; top: 829px; left: 179px; z-index: 1;}
+.white-rectangle{background-color: rgb(245, 245, 245); width: 400px; height: 200px; stroke: black; stroke-width: 200px;}
+.red-circle{background-color: red; border-radius: 50%;  width: 150px; height: 150px;position: absolute; top: 778px; left: 160px;  }
+
+.l{font-size: 30px; position: absolute; top: 1000px; left: 199px; z-index: 1;}
+.red-rectangle{ background-color: brown; width: 200px; height: 40px; position: relative; top: 50px; left: 100px;}
+.white1-rectangle{ background-color: rgb(243, 243, 247); width: 20px; height: 40px; position: relative; top: 50px; left: 100px;}
+.red1-rectangle{ background-color: brown ; width: 200px; height: 40px; position: relative; top: 50px; left: 100px;}
+ 
+.n{ font-size: 30px; position: relative; top: 200px; left:100px ;z-index: 1; }
+.green-rectangle{ background-color: green; width: 100px; height:200px; position: absolute; top: 1187px;}
+.green2-rectangle{ background-color: green; width: 100px; height:200px; position: absolute; top: 1187px; left: 200px;}
+.white2-rectangle{  background-color:white; width: 100px; height:200px; position: absolute; top: 1187px; left: 110px;}
+
+ 
+

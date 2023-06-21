@@ -1,0 +1,16 @@
+ /* css position*/ 
+
+h1{ background-color: rgb(228, 133, 215);}
+h1{ background-color: rgb(72, 207, 128);}
+/* specificity*/
+
+p{background-color: blueviolet;}
+p.Bold{ background-color: aqua !important;}
+p[draggable] {background-color: brown;}
+#Al {background-color: rgb(221, 133, 17);}
+/*type*/
+pre{background-color: coral;}
+/*important*/
+
+h4{background-color: rgb(121, 180, 170) !important;}
+h4{background-color: blueviolet;}

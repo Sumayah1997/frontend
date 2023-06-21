@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+header{background-color: cadetblue; padding: 1px; text-align: center;  }
+body{font-family: 'Times New Roman', Times, serif;}
+section{display: flex; margin: 0; padding: 0;}
+nav{background-color: darkgoldenrod; padding: 3px; float: left;}
+ul{list-style: none; padding: 10px; }
+article{ padding: 2px; float: left;}
+footer{ background-color: cadetblue ; padding: 2px; text-align: center; font-size: 30px;  }
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }

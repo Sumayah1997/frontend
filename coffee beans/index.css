@@ -1,0 +1,19 @@
+.navbar
+{
+background-color: #7F5539; padding:30px; margin-top: 40px;
+}
+body 
+{
+    background-color: rgb(255, 255, 255);
+}
+.coffee
+{ 
+    margin:0 auto;
+    z-index: 1;
+
+}
+.search {
+    width: 30px;
+    position: absolute ; left: 1999px;
+   
+}

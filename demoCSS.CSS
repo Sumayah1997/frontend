@@ -1,0 +1,67 @@
+.bold{
+    color: brown;
+}
+li.fancy{
+    color: purple;
+}
+#v{
+    text-align: center;
+   
+    background-color: chocolate;
+}
+body{
+background-color: darkgrey;
+ font-size: 17px;
+}
+p
+{
+    font-size: 1.0em; 
+    text-align: left;
+}
+h2
+{ 
+    font-size:1.0em;
+     text-align: right;
+    }
+.tertiary
+{ 
+    font-size: 1em;
+}
+.secondary
+
+{font-size: 1em;
+    text-align: center;
+}
+
+.u
+{ 
+    padding: 10px;
+     margin-left: 450px ;  
+      width: 200px ;
+      height: 800px;
+      border-collapse: collapse;
+       border-style: dotted;
+       border-color: aqua;
+    }
+
+
+
+
+.x
+{ 
+    text-align: left; 
+       border-style: solid; 
+       border-color: aquamarine;
+        margin: 50px ;
+    }
+.z
+{
+    text-align: center; 
+    border-color: blue; 
+    border-style: dashed;
+     margin-right: 505px ; 
+    }
+.n
+{ 
+    padding-right: 60px ; 
+}

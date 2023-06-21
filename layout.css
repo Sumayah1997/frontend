@@ -1,0 +1,139 @@
+*
+ {
+  box-sizing: border-box;
+}
+body
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and(max-width 600px){
+  body {background-color: black;}
+
+}
+@media only screen and (max-width:90px){
+  body{ background-color: chartreuse;}
+}
+  
+}
+header
+{ 
+  background-color:rgb(119, 117, 114) 
+  ;text-align: center; 
+  padding: 3px;
+}
+.nav2
+{
+  background-color: aquamarine;
+  flex: 2
+  flex-basis 200px;
+
+}
+
+section
+{
+    margin: 20px ;
+    flex-direction: row;
+    flex-wrap: row;
+    display: flex;
+    margin:0 ;
+     padding: 0;
+     
+    
+
+    }
+nav
+{ 
+  padding: 0px ; 
+  background-color:rgb(150, 51, 153) ;
+   flex: 1;
+   flex-basis: 200px ;
+  }
+article
+{ 
+   padding: 10px;
+   flex:3; 
+   width: 30px ;
+  }
+
+ul
+{
+   padding: 0px ;
+   list-style: none;
+  }
+footer
+{ 
+    padding: 10px;  
+    background-color: rgb(119, 117, 114);
+    color:white; 
+    text-align: center; 
+    font-size: larger;
+    font-style: bold;
+  }
+.n 
+{ 
+    background-color: blanchedalmond;
+}
+
+aside
+{
+    flex:1; 
+    background-color: blueviolet;
+    text-align: center; 
+    width: 40px;
+  }
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .gridparent
+  { 
+      padding: 10px; 
+      display: grid; 
+      grid-template-columns: auto  auto auto;
+  }
+  .griditem
+  {
+    padding: 10px; 
+    border-style: solid;
+    border-color: blueviolet;  
+   border-spacing: 2px; 
+   text-align:center ;    
+   background-color: aquamarine;
+  }
+  .videbox
+  { 
+    display: flex;
+   }
+  div>iframe
+  {
+    flex: 1;
+  }
+  .griditem
+  {
+    cursor: cell;
+    display: flex;
+     object-position: center;
+    object-fit: scale-down;
+  }
+  .h2
+  {
+    cursor:cell;
+  
+  }
+  @media only screen and (max-width:90px){
+    background-color: red;}
+  .videbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 40px;
+    margin: 20px;
+    padding: 10px;
+  }
+  iframe{width: 200px; height: 160px;
+    object-position: center;
+    object-fit: scale-down;
+    padding: 2px;
+
+  }
