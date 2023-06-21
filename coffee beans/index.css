@@ -1,6 +1,6 @@
 .navbar
 {
-background-color: #7F5539; padding:30px; margin-top: 40px;
+background-color: #f8ddcc; padding:5px; margin-top: 5px;
 }
 body 
 {
@@ -14,6 +14,18 @@ body
 }
 .search {
     width: 30px;
-    position: absolute ; left: 1999px;
+    position: absolute ; top: 7px;  left:97cqw; z-index: 2;} 
    
+img
+{
+    position: absolute ; top: 7px; z-index: 2; 
+}
+.cart
+{
+    width: 30px;
+    position: absolute ; top: 7px;  left:94cqw; z-index: 2;
+}
+.login
+{
+    font-size: medium; position: absolute; left: 90cqh;
 }
