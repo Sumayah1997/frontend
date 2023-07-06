@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        demo of closure
+    </h3>
+    <script>
+
+function outerFunction()
+{
+    let x = 1;
+    function innerFunction()
+    {
+        console.log(x);
+    }
+        return innerFunction;
+        }
+            let myFunction = outerFunction();
+            myFunction(); // prints 1
+
+
+
+
+    </script>
+</body>
+</html>

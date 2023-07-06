@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        iterations
+    </h3>
+    <script>
+
+// const numbers = [1, 2, 3, 4, 5];
+//     const iterator = numbers[Symbol.iterator]();
+//     while (true) 
+//     {
+//         const { value, done } = iterator.next();
+//             if (done) 
+//                 {
+//                 break;
+//                 }
+//                 console.log(value);
+//                 }
+
+                function* numberGenerator() {
+                let num = 1;
+                while (true) {
+                yield num;
+                num++;
+                    }
+                    }
+                        const iterator = numberGenerator();
+                         console.log(iterator.next().value); // 1
+                         console.log(iterator.next().value); // 2
+                         console.log(iterator.next().value); // 3
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> this is array </h3>
+    <script>
+    let Tree=["coconut " ,"mango" ,"palm" ," apple " ,"redwood"];
+    let shrubs = ["basil" ,"offictime"];
+    console.log(Tree);
+    console.log(Tree.length);
+    console.log(Tree.pop());
+    Tree.push("trrre");
+    console.log(Tree);
+    console.log(Tree.shift());
+    console.log(Tree);
+
+    Tree.unshift("oak");
+    console.log(Tree);
+
+    let myTrees = Tree.concat(shrubs);
+    console.log(myTrees);
+
+
+    console.log(myTrees.toString());
+
+    let TempTree= myTrees.slice(4,7);
+    console.log(TempTree);
+    
+    
+
+    Tree.splice( 5,"treey", "treeyy","treek");
+    console.log(Tree);
+
+
+
+    </script>
+</body>
+</html>

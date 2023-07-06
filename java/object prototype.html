@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+// Define a prototype for the Person object
+const PersonPrototype = {
+                        greeting: function() {
+                        console.log(`Hello, my name is ${this.name} and I am ${this.age}yrars old`);
+                        }
+                       ageindays: function(){
+                            let aid=this.age*365;
+                            console.log(' i am ${aid} days old');
+                        }
+                        };
+
+                      //Create a new Person object using the PersonPrototype
+                        const person1 = Object.create(PersonPrototype);
+                        person1.name = 'John';
+                        person1.age = 30;
+
+
+                // Create another Person object using the PersonPrototype
+                    const person2 = Object.create(PersonPrototype);
+                    person2.name = 'Jane';
+                    person1.age = 35;
+
+                  // Call the greeting method on both Person objects
+                      person1.greeting(); // "Hello, my name is John"
+                      person2.greeting(); // "Hello, my name is Jane"
+                      person1.ageindays();
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> demo arrow functions </h3>
+
+    <script>
+        //arrow functions
+        // let a,b;
+    
+        // const add =(a,b)=>a+b;
+        // console.log(add(3,5));
+
+
+        //indexed collections
+        // const myTypedArray = new Int32Array(3);
+        // myTypedArray[0]=10;
+        // myTypedArray[1]=11;
+        // myTypedArray[2]=12;
+        // myTypedArray[3]=13;
+        // // myTypedArray[4]=14;
+        // // myTypedArray[5]=15;
+        // // myTypedArray[6]=16;
+        // // myTypedArray[7]=17;
+        // // myTypedArray[8]=18;
+        // // myTypedArray[9]=19;
+        // // myTypedArray[10]=20;
+        // for(i in myTypedArray)
+        // if(i%2 !==0)
+        // {
+        //     console.log(myTypedArray[i]);
+        // }
+
+        // const myTypedArray = new Int32Array(9);
+        // myTypedArray[10,11,12,13,112,115,113,167,433];
+        // myTypedArray[3]=35;
+
+        // for(i in myTypedArray)
+        // if(i%2 !==0)
+        // {
+        //     console.log(myTypedArray[i]);
+        // }
+
+
+        //set object types
+
+        // const mySet = new Set();
+        //         mySet.add(1);
+        //         mySet.add(2);
+        //         mySet.add(3);
+        //         mySet.add(4);
+        //         mySet.add(5);
+        //         mySet.add(6);
+        //         mySet.add(7);
+        //         mySet.add(8);
+
+        //                mySet.add(9); // duplicate value, not added
+        //                console.log(mySet); // Set { 1, 2, 3 ,5,6,7,8, 9}
+
+
+
+
+
+
+                    //map object
+                    // const myMap = new Map();
+                    //     myMap.set('fristname', 'hude');
+                    //     myMap.set('lastname', 'alshehri');
+                    //     myMap.set('age', '25');
+                    //     myMap.set('city','jedahh');
+                    //     console.log(myMap); // Map { 'key1' => 'value1', 'key2' => 'value2', 42 => 'value3' }
+
+
+                    // const myMap = new Map();
+                    //     myMap.set('key1', 'value1');
+                    //     myMap.set('key2', 'value2');
+                    //     myMap.set(42, 'value3');
+                    //     console.log(myMap); // Map { 'key1' => 'value1', 'key2' => 'value2', 42 => 'value3' }
+
+
+                    //demo for fibonacci with map 
+                    const cache = new Map();
+                    function fibonacci(n) {
+                    if (n <= 1) {
+                    return n;}
+                    if (cache.has(n)) {
+                    return cache.get(n);}
+                    const result = fibonacci(n - 1) + fibonacci(n - 2);
+                cache.set(n, result);
+                return result;}
+                console.log(fibonacci(10)); // 55
+                console.log(fibonacci(20)); // 6765
+
+
+
+
+        
+            
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+    </div>
+    <table>
+        <tr>
+            <th>model</th>
+            <th>mark</th>
+            <th>type</th>
+            <th>year</th>
+        </tr>
+
+        <tr>
+            <td id="e1"></td>
+            <td id="e2"></td>
+            <td id="e3"></td>
+        </tr>
+    </table>
+    <h3> objects demo </h3>
+    <script>
+        const person = {
+                name: 'sumayah',
+                age: 26,
+                email: 'john@example.com',
+                address: 
+                {
+                    street: 'lolo 23',
+                    city: 'jubil',
+                    state: 'CA',
+                    zip: '12345'
+                    },
+                    sayHello: function() {
+                    console.log(`Hello, my name is ${this.name}`);
+                    }
+                    };
+                    person.sayHello();
+
+                console.log(person.name); // 'John’
+                console.log(person['age']); // 30
+                console.log(person.address.city); // ‘Anytown'
+
+
+                // function car (model, mark, type,year) 
+                class car
+                {
+                    constructor(model,mark,type,year){
+
+                    
+                    this.model= model;
+                    this.mark = mark;
+                    this.type = type;
+                    this.year = year;}
+                    age(){
+                        const date = new Date();
+                        return date.getFullYear()-this.year; 
+                    }
+
+                    }
+                       //first objects
+                    const vxc90 = new car ('xc90', 2022, 'volvo','suv');
+                      //second object
+                    const BMW3 = new car('series', 2022, 'BMW','Sedan');
+                      //third objects
+                    const gmy = new car ('yukun', 2022, 'gmg','suv');
+                      //fourth objects 
+                    const ms3 = new car('s350', 2022, 'mercedes','sedan');
+                    console.log(`my ${vxc90.model} is ${vxc90.age}. years old`)
+                    console.log(vxc90.model);
+                    console.log(vxc90.mark);
+                    console.log(vxc90.type);
+                    console.log(vxc90.year);
+                    
+
+                    console.log(BMW3.model);
+                    console.log(BMW3.mark);
+                    console.log(BMW3.type);
+                    console.log(BMW3.year);
+
+                    console.log(gmy.model);
+                    console.log(gmy.mark);
+                    console.log(gmy.type);
+                    console.log(gmy.year);
+
+                    console.log(ms3.model);
+                    console.log(ms3.mark);
+                    console.log(ms3.type);
+                    console.log(ms3.year);
+
+
+                // let car=["vxc90","bmw3","gmy","ms3"];
+                // let table="<table><tr>"
+                //     let calls=2;
+                //     array.for Each((value,i)=>
+                //     {
+                //         table +=`<TD>$
+                //     })
+                    
+
+
+                
+
+
+
+    </script>
+</body>
+</html>

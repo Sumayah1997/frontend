@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> josn
+
+    </h3>
+
+    <script>
+        const person =`{"firstname":"sumayah","age": "26","lastname":"alfageeh","Birthday":"1997-4-11"    ,"Message"":"function(){return "hello"}}`
+        let personObj = JSON.parse(person);
+        // console.log(personObj.firstname);
+        //  console.log(personObj.lastname);
+
+        personObj.Birthday=new Date(personObj.Birthday);
+        // personObj.Massage= eval("("+personObj.Massage+")");
+
+        console.log("name:"+personObj.firstname, "Birthday:"+personObj.Birthday, "lastname:"+personObj.lastname);
+
+        
+
+        const car ={ name:"volvo",model:"xc90", color:"pink"};
+        console.log(car);
+        const carjason =JSON.stringify(car);
+        console.log(carjason);
+
+
+
+    </script>
+</body>
+</html>
