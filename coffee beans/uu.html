@@ -1,0 +1,67 @@
+<html>
+  <head><title> online movies</title> 
+     <link href="header.css" rel="stylesheet" type="text/css" />
+
+  <link href="nn.css" rel="stylesheet" type="text/css" />
+  <script>
+ 
+function validateForm()
+{
+var x=document.forms["myForm"]["Email"].value;
+if (x==null || x=="")
+{
+alert("Email name must be filled out");
+return false;
+}
+}
+</script> 
+</head>
+  
+  
+  <body bgcolor="#CCEEFD" background="images/lace.jpg" style="text-align: center">
+  <div class="header">
+  <h1>.</h1>
+</div>
+
+<div class="topnav">
+<a href="index.html">Home</a>
+  <a href="action.html">Action Movie</a>
+  <a href="famil.html">Family Movie</a>
+  <a href="animation.html">Animation</a>
+  <a href="Schedule.html">Schedule</a>
+  <a href="faq.html">FAQ</a>
+  <a href="Login.html">Login</a>
+</div>
+ <br/>
+<br/>
+<div align=center>
+	<form name="myForm" onsubmit="return validateForm()" method="post">		 
+<table border="1"   height="66" align=center>
+<tr>
+<td  >Email</td>
+<td >  
+<input type="text" name="Email" size="40"></td>
+</tr>
+<tr>
+<td  >Mobile</td>
+<td >  
+<input type="text" name="mobile" size="40"></td>
+</tr>
+<tr>
+<td  >Name  </td>
+<td >  
+<input type="text" name="name" size="40"></td>
+</tr>
+<tr>
+<td  >Password  </td>
+<td  >  <input type="password" name="password" size="40" ></td>
+</tr>
+ </table>
+<p align="center"><input type="submit" value="Submit" onclick="myFunction()"  >
+<input type="reset" value="Reset"  ></p>
+	</form>
+ 
+&nbsp;</div>
+   
+  </body>
+</html>

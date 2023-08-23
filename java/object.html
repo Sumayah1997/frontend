@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <!-- <div>
 
     </div>
     <table>
@@ -22,76 +22,114 @@
             <td id="e2"></td>
             <td id="e3"></td>
         </tr>
-    </table>
+    </table> -->
     <h3> objects demo </h3>
     <script>
-        const person = {
-                name: 'sumayah',
-                age: 26,
-                email: 'john@example.com',
-                address: 
-                {
-                    street: 'lolo 23',
-                    city: 'jubil',
-                    state: 'CA',
-                    zip: '12345'
-                    },
-                    sayHello: function() {
-                    console.log(`Hello, my name is ${this.name}`);
+        // const person = {
+        //         name: 'sumayah',
+        //         age: 26,
+        //         email: 'john@example.com',
+        //         address: 
+        //         {
+        //             street: 'lolo 23',
+        //             city: 'jubil',
+        //             state: 'CA',
+        //             zip: '12345'
+        //             },
+        //             sayHello: function() {
+        //             console.log(`Hello, my name is ${this.name}`);
+        //             }
+        //             };
+        class person{
+            constructor(name,age,email){this.name=name; this.age=age; this.email=email;}
+            sayHello(){
+                console.log(`hi , my name is ${this.name}`);
+            }}
+            // {
+            //     this.name = name;
+            //     this.age = age;
+            //     this.email = email;
+            // }
+        // }
+        class doctor extends person
+        {
+                    constructor(name , age ,email,spec, degree,hospital){
+                        super(name,age,email);
+                        this.degree=degree;
+                        this.spec=spec;
+                        this.hospital=hospital;
                     }
-                    };
-                    person.sayHello();
 
-                console.log(person.name); // 'John’
-                console.log(person['age']); // 30
-                console.log(person.address.city); // ‘Anytown'
+                    // sayHi()
+                    // {
 
+                // // console.log(person.name); // 'John’
+                // // console.log(person['age']); // 30
+                // console.log(`hi, my name is ${this.name}`); 
+                //     }
+                // class doctor extends person{
+                //     constructor(name , age ,email,spec, degree,hospital){
+                //         super(name,age,email);
+                //         this.degree=degree;
+                //         this.spec=spec;
+                //         this.hospital=hospital;
+                //     }
+                    sayHi(){
+                        console.log(` i am ${this.spec} with a ${this.degree} and i work ${this.hospital}`)}}
+                        
+                    
+                    person1 = new person("noha",30,"noha@gmail.com");
+                    doctor1 = new doctor("noha",21,"bo@gmail.com ","surgeon","ms","cc");
+                    person1.sayHello();
+                    doctor1.sayHi();
+
+                
 
                 // function car (model, mark, type,year) 
-                class car
-                {
-                    constructor(model,mark,type,year){
+                // class car
+                // {
+                //     constructor(model,mark,type,year){
 
                     
-                    this.model= model;
-                    this.mark = mark;
-                    this.type = type;
-                    this.year = year;}
-                    age(){
-                        const date = new Date();
-                        return date.getFullYear()-this.year; 
-                    }
+                //     this.model= model;
+                //     this.mark = mark;
+                //     this.type = type;
+                //     this.year = year;}
+                //     age(){
+                //         const date = new Date();
+                //         return date.getFullYear()-this.year; 
+                //     }
 
-                    }
-                       //first objects
-                    const vxc90 = new car ('xc90', 2022, 'volvo','suv');
-                      //second object
-                    const BMW3 = new car('series', 2022, 'BMW','Sedan');
-                      //third objects
-                    const gmy = new car ('yukun', 2022, 'gmg','suv');
-                      //fourth objects 
-                    const ms3 = new car('s350', 2022, 'mercedes','sedan');
-                    console.log(`my ${vxc90.model} is ${vxc90.age}. years old`)
-                    console.log(vxc90.model);
-                    console.log(vxc90.mark);
-                    console.log(vxc90.type);
-                    console.log(vxc90.year);
+                //     }
+                    //    //first objects
+                    // const vxc90 = new car ('xc90', 2022, 'volvo','suv');
+                    //   //second object
+                    // const BMW3 = new car('series', 2022, 'BMW','Sedan');
+                    //   //third objects
+                    // const gmy = new car ('yukun', 2022, 'gmg','suv');
+                    //   //fourth objects 
+                    // const ms3 = new car('s350', 2022, 'mercedes','sedan');
+                    // console.log(`my ${vxc90.model} is ${vxc90.age}. years old`)
+                    // console.log(vxc90.model);
+                    // console.log(vxc90.mark);
+                    // console.log(vxc90.type);
+                    // console.log(vxc90.year);
                     
 
-                    console.log(BMW3.model);
-                    console.log(BMW3.mark);
-                    console.log(BMW3.type);
-                    console.log(BMW3.year);
+                    // console.log(BMW3.model);
+                    // console.log(BMW3.mark);
+                    // console.log(BMW3.type);
+                    // console.log(BMW3.year);
 
-                    console.log(gmy.model);
-                    console.log(gmy.mark);
-                    console.log(gmy.type);
-                    console.log(gmy.year);
+                    // console.log(gmy.model);
+                    // console.log(gmy.mark);
+                    // console.log(gmy.type);
+                    // console.log(gmy.year);
 
-                    console.log(ms3.model);
-                    console.log(ms3.mark);
-                    console.log(ms3.type);
-                    console.log(ms3.year);
+                    // console.log(ms3.model);
+                    // console.log(ms3.mark);
+                    // console.log(ms3.type);
+                    // console.log(ms3.year);
 
 
                 // let car=["vxc90","bmw3","gmy","ms3"];
